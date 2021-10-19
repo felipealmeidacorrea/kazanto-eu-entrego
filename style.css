@@ -21,10 +21,10 @@ body {
 
 .area-de-acao-1 {
     display: grid;
-    width: 40%;
     grid-template-columns: 40px 1fr;
     grid-auto-rows: 40px;
     grid-gap: 12px;
+    width: 40%;
     margin: 0 auto;
 }
 
@@ -61,7 +61,6 @@ body {
 }
 
 .botao-1 {
-    box-sizing: border-box;
     background: #e41021;
     box-shadow: 5px 5px 6px rgb(0 0 0 / 20%);
     border: none;
@@ -76,7 +75,7 @@ body {
     background: #FFFFFF;
     box-shadow: 5px 5px 25px rgb(0 0 0 / 70%);
     border-radius: 10px;
-    height: 1000px;
+    min-height: 500px;
     width: 875px;
     margin: 50px auto 50px auto;
 }
