@@ -73,11 +73,74 @@ body {
 
 .container-1 {
     background: #FFFFFF;
+    box-sizing: border-box;
     box-shadow: 5px 5px 25px rgb(0 0 0 / 70%);
     border-radius: 10px;
     min-height: 500px;
     width: 875px;
     margin: 50px auto 50px auto;
+    padding: 50px 50px;
+}
+
+.card-pesquisa-e-add {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 17px;
+    box-shadow: 5px 5px 25px rgb(0 0 0 / 70%);
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto 50px auto;
+    font-size: 14px;
+}
+.card-cabecalho {
+    background: #e41021;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #FFFFFF;
+    align-items: center;
+    font-size: 16px;
+}
+
+.text-card-cabecalho-estatico {
+    font-weight: bold;
+    margin-left: 18px;
+}
+
+.text-card-cabecalho-variavel {
+    box-sizing: border-box;
+    font-weight: normal;
+    margin-left: 4px;
+}
+
+.caixa-texto-1 {
+    display: flex;
+}
+
+.linha-estatica {
+    margin-left: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.linha-variavel {    
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.botao-adicionar {
+    position: relative;
+    background: #e41021;
+    box-shadow: 5px 5px 6px rgb(0 0 0 / 20%);
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    bottom: 50px;
+    left: 690px;
+    width: 68px;
+    height: 38px;
+    cursor: pointer;
 }
 
 ::-webkit-scrollbar {
