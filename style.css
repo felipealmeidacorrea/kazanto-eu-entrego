@@ -159,9 +159,11 @@ body {
 }
 
 .text-card-cabecalho-variavel {
-    box-sizing: border-box;
-    font-weight: normal;
-    margin-left: 4px;
+    margin-left: 5px;
+    white-space: nowrap; 
+    max-width: 12em; 
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .caixa-texto-1 {
