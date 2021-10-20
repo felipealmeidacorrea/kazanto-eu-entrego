@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #707070;
+    padding-bottom: 50px;
 }
 
 .header {
@@ -40,7 +41,7 @@ body {
     justify-items: center;
 }
 
-.img-botao-checkout {
+.img-botao {
     max-width: 90%;
 }
 
@@ -67,6 +68,55 @@ body {
     border-radius: 5px;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+/*Área de ação 2*/
+
+.area-de-acao-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+}
+
+.botao-nav-2 {
+    background: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 20%);
+    border: 1px solid rgba(128, 128, 128, .25);
+    border-radius: 5px;
+    width: 40px;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+}
+
+.form-2 {
+    display: flex;
+    margin-left: 12px;
+}
+
+.caixa-suspensa {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 20%);
+    border: 1px solid rgba(128, 128, 128, .25);
+    border-radius: 5px;
+    height: 100%;
+    width: 10em;
+    padding: 2px;
+}
+
+
+.botao-2 {
+    background: #e41021;
+    box-shadow: 5px 5px 6px rgb(0 0 0 / 20%);
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 12px;
+    width: 5em;
 }
 
 /*Area de Resultados*/
@@ -139,6 +189,21 @@ body {
     bottom: 50px;
     left: 690px;
     width: 68px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.status {
+    position: relative;
+    /*background: #e41021;*/
+    background: green;
+    box-shadow: 5px 5px 6px rgb(0 0 0 / 20%);
+    border: none;
+    border-radius: 100%;
+    color: #FFFFFF;
+    bottom: 35px;
+    left: 720px;
+    width: 38px;
     height: 38px;
     cursor: pointer;
 }
