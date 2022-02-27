@@ -18,6 +18,7 @@ body {
     margin: 40px 0 40px 0;
 }
 
+
 /*Área de ação*/
 
 .area-de-acao-1 {
@@ -70,6 +71,7 @@ body {
     cursor: pointer;
 }
 
+
 /*Área de ação 2*/
 
 .area-de-acao-2 {
@@ -107,7 +109,6 @@ body {
     padding: 2px;
 }
 
-
 .botao-2 {
     background: #e41021;
     box-shadow: 5px 5px 6px rgb(0 0 0 / 20%);
@@ -118,6 +119,7 @@ body {
     margin-left: 12px;
     width: 5em;
 }
+
 
 /*Area de Resultados*/
 
@@ -143,6 +145,7 @@ body {
     margin: 0 auto 50px auto;
     font-size: 14px;
 }
+
 .card-cabecalho {
     background: #e41021;
     display: flex;
@@ -160,8 +163,8 @@ body {
 
 .text-card-cabecalho-variavel {
     margin-left: 5px;
-    white-space: nowrap; 
-    max-width: 12em; 
+    white-space: nowrap;
+    max-width: 12em;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -176,7 +179,7 @@ body {
     margin-top: 10px;
 }
 
-.linha-variavel {    
+.linha-variavel {
     margin-top: 10px;
     margin-left: 5px;
 }
@@ -194,6 +197,7 @@ body {
     height: 38px;
     cursor: pointer;
 }
+
 
 /*aguardando status para trabalhar com classes*/
 
